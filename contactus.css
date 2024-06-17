@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.menu{
+    background:rgb(112, 223, 112);
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.logo{
+    display: inline-block;
+    margin: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo img{
+    width: 85px;
+    height: auto;
+}
+
+.menu ul{
+    display: inline flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 10px;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li img{
+    height: 40px;
+    width:60px;
+    margin-left: 0;
+}
+
+.menu .fa{
+    margin-right: 8px;
+}
+
+.menu a:hover {
+    color: white;
+}
+.menu ul li:hover{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover {
+    width: 120px;
+    padding: 15px;
+    border-bottom: 1px  #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+
+.menu a.btn:hover,.menu .logo:hover{
+    color: white;
+}
+
+.contactus {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactus .container {
+    margin: 0 auto;
+}
+
+.contactus h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contactus p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contactus form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contactus input,
+.contactus textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactus button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(112, 223, 112);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.contactus button:hover {
+    background-color: rgb(92, 183, 92);
+}
